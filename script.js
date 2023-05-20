@@ -58,6 +58,11 @@ var users = [
       profession: profession
     };
 
+    if(name == "" || age == "" || profession == "")
+    {
+      alert("Please enter correct details !")
+    }
+
     users.push(newUser);
     renderUser();
 
