@@ -36,10 +36,8 @@ ol{
     color:white;
 }
 li{
-    width:350px;
-    height:40px;
-    border:1px white solid;
-    margin-bottom: 9px;
+    border: 1px pink solid;
+    margin-bottom: 5px;
     padding:5px;
 }
 span{
