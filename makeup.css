@@ -34,17 +34,16 @@ body{
 }
 ol{
     color:white;
-    margin-left:15px;
 }
 li{
     width:90%;
     height:40px;
     border:1px white solid;
-    margin: 9px;
+    margin-bottom: 9px;
     padding:5px;
 }
 span{
-    margin-left: 10px;
+    margin-left: 6px;
 }
 h2{
     font-weight: lighter;
