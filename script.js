@@ -62,8 +62,11 @@ var users = [
     {
       alert("Please enter correct details !")
     }
+    else{
+      users.push(newUser);
+    }
 
-    users.push(newUser);
+    
     renderUser();
 
     document.getElementById("name").value = "";
