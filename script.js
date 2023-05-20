@@ -11,7 +11,6 @@ var users = [
 
     users.forEach(function(user) {
       var list = document.createElement("li");
-
       var name = document.createElement("span");
       name.textContent = "Name: " + user.name;
       list.appendChild(name);
@@ -58,7 +57,7 @@ var users = [
 
     if(name == "" || age == "" || profession == "")
     {
-      alert("Please enter correct details !")
+      alert("Don't play game, Please fill all the fields !")
     }
     else{
       users.push(newUser);
