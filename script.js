@@ -12,15 +12,15 @@ var users = [
     users.forEach(function(user) {
       var list = document.createElement("li");
 
-      var name = document.createElement("p");
+      var name = document.createElement("span");
       name.textContent = "Name: " + user.name;
       list.appendChild(name);
 
-      var profession = document.createElement("p");
+      var profession = document.createElement("span");
       profession.textContent = "Profession: " + user.profession;
       list.appendChild(profession);
 
-      var age = document.createElement("p");
+      var age = document.createElement("span");
       age.textContent = "Age: " + user.age;
       list.appendChild(age);
       userList.appendChild(list);
@@ -30,7 +30,6 @@ var users = [
   //filter function
   function filter() {
     var selectedProfession = document.getElementById("profession").value;
-
     if (selectedProfession === "") {
       alert("Please select a profession before clicking the button.");
       return;
@@ -45,7 +44,6 @@ var users = [
   }
 
   //add function
-  
   function addUser() {
     var name = document.getElementById("name").value;
     var age = document.getElementById("age").value;
